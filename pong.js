@@ -34,7 +34,7 @@ function update() {
   //then the objects
   ctx.fillStyle = "#FFF";
   ai.think();
-  ai2.think(); // comment to disable ai and enable player
+  // ai2.think(); // comment to disable ai and enable player
   ball.update();
   p1.update();
   p2.update();
